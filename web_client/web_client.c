@@ -6,8 +6,8 @@
 ##########	Abhinav Thakur
 ##########	compilepeace@gmail.com
   
-##########  Program name - 
-##########	Description  - 
+########## 	Program name - web_client.c
+##########	Description  - This is a web client program which sends HTTP request to a web server
 
 
 
@@ -205,40 +205,3 @@ int main(int argc, char *argv[])
 
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
