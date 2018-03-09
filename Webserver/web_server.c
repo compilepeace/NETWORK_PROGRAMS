@@ -8,12 +8,12 @@
   
 ##########  Program name - web_server.c
 ##########	Description  - This is webserver program to demonstrate client-server architecture from scratch.
-						   Present status: It responds to GET/ HEAD requests only.
-					 	   I am still doing a research on the concepts, so its may still be full of bugs :)
+			       Present status: It responds to GET/ HEAD requests only.
+			       I am still doing a research on the concepts, so its may still be full of bugs :)
 						   
 
 
-				STRUCTURES USED
+		     STRUCTURES USED
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -505,20 +505,4 @@ void file_not_found(int client_socket_fd)
 				close(fd);	
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
