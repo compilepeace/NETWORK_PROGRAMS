@@ -12,8 +12,8 @@
 
 
 # USAGE
-	Just compile the source code - "Webserver/web_server.c"
-	Issue the commands bellow
+Just compile the source code - "Webserver/web_server.c"
+Issue the commands bellow
 	
 	git clone https://github.com/compilepeace/Network_programming/	# clonning git repository
 	cd Network_programming/Webserver				# getting into Webserver directory
