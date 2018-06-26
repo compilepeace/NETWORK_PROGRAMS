@@ -5,7 +5,6 @@
   is made vulnerable. It could have been implemented in other high level programming languages also (like java, python
   etc.) but the layers of abstraction provided by languages like python provide won't let us have an insight about the
   concept.
-  
   I would love any suggestions on how can this model be made more vulnerable
   any contributions regarding the same would be appreciated.
   Cheers,
@@ -25,4 +24,6 @@ To compile the web_client, issue the bellow commands-
 	$ cd ./../web_client/							# getting to web_client directory 
 	$ gcc web_client.c -o webclient  					# compiling webclient
 
-# Note : Ignore the warnings since the "webserver" program is intensionally made vulnerable so that later on Exploitation can be demonstrated.
+
+# Note 
+Ignore the warnings since the "webserver" program is intensionally made vulnerable so that later on Exploitation can be demonstrated.
