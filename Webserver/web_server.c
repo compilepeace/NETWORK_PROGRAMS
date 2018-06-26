@@ -245,6 +245,8 @@ int main()
 				perror("listen(): \n");
 				exit(1);
 			}
+	
+			printf("\nListening on Port: %d\n\n", PORT);
 		
 
 
