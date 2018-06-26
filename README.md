@@ -12,4 +12,12 @@
 
 
 # USAGE
-	Just compile the source code - "webserver.c"
+	Just compile the source code - "Webserver/web_server.c"
+	Issue the commands bellow
+	
+	git clone https://github.com/compilepeace/Network_programming/	# clonning git repository
+	cd Network_programming/Webserver				# getting into Webserver directory
+	gcc web_server.c -o webserver					# compiling webserver
+	./webserver 							# running webserver
+
+	
