@@ -24,5 +24,10 @@ To compile the web_client, issue the bellow commands-
 	$ cd ./../web_client/							# getting to web_client directory 
 	$ gcc web_client.c -o webclient  					# compiling webclient
 
+## VULNERABILITIES
+	- Buffer Overflows
+	- Local File Inclusion (LFI)
+
 
 #### Note : Ignore the warnings since the "webserver" program is intensionally made vulnerable so that later on Exploitation can be demonstrated.
+
