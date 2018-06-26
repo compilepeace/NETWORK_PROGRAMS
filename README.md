@@ -11,12 +11,15 @@
 
 
 # USAGE
-Just compile the source code - "Webserver/web_server.c"
-Issue the commands bellow
+Just compile the source code - "Webserver/web_server.c".
+Issue the commands bellow on the linux command line to generate and ELF executable of webserver-
 	
-	git clone https://github.com/compilepeace/Network_programming/	# clonning git repository
-	cd Network_programming/Webserver				# getting into Webserver directory
-	gcc web_server.c -o webserver					# compiling webserver
-	./webserver 							# running webserver
+	$ git clone https://github.com/compilepeace/Network_programming/	# clonning git repository
+	$ cd Network_programming/Webserver					# getting into Webserver directory
+	$ gcc web_server.c -o webserver						# compiling webserver
+	$ ./webserver 								# running webserver
 
-	
+To compile the web_client, issue the bellow commands-
+
+	$ cd ./../web_client/							# getting to web_client directory 
+	$ gcc web_client.c -o webclient  					# compiling webclient
