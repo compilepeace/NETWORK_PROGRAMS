@@ -7,7 +7,7 @@ BUILD_DIR_DNSRESOLVER=./DNSresolver
 
 all: webserver webclient dnsresolver
 
-.PHONY: clean
+.PHONY: clean run_webserver
 
 
 
@@ -21,6 +21,9 @@ dnsresolver:
 	make -C $(BUILD_DIR_DNSRESOLVER)
 	
 
+
+run_webserver:
+	make -C $(BUILD_DIR_WEBSERVER) run_webserver
 
 clean:
 	make -C $(BUILD_DIR_WEBSERVER) clean
