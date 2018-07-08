@@ -11,7 +11,6 @@
 
 
 ## USAGE
-> Just compile the source code - `Webserver/web_server.c`.
 Issue the commands bellow on the linux command line to generate and ELF executable of webserver-
 	
 ```shell
