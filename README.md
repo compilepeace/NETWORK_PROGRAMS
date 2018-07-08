@@ -14,11 +14,12 @@
 Just compile the source code - "Webserver/web_server.c".
 Issue the commands bellow on the linux command line to generate and ELF executable of webserver-
 	
+	```shell
 	$ git clone https://github.com/compilepeace/Network_programming/	# clonning git repository
 	$ cd Network_programming						# getting into Networ_programming directory
 	$ make									# building webserver, webclient and dnsresolver
 	$ make run_webserver 							# run the webserver on port 8080
-		
+	```	
 
 ## VULNERABILITIES
  - Buffer Overflow
